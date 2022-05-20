@@ -19,7 +19,6 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RunLocomotion.msg"
   "msg/SetConfig.msg"
-  "msg/Status.msg"
   "srv/GetConfig.srv"
   "srv/SaveConfig.srv")
 
