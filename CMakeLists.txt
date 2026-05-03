@@ -20,6 +20,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Particle.msg"
   "msg/Particles.msg"
   "msg/RunLocomotion.msg"
+  "msg/Point2.msg"
+  "msg/Obstacle.msg"
+  "msg/Obstacles.msg"
+  "msg/Route.msg"
   "msg/SetConfig.msg"
   "srv/GetConfig.srv"
   "srv/SaveConfig.srv")
